@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: opx;
+  box-sizing: border-box;
+  font-family: 'Dela Gothic One', cursive;
+}
+  
+body{
+  background-image:url(bg.png);
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  
+  
+}
+nav {
+  display: flex;
+ 
+}
+.logo{
+  display: flex;
+ 
+  width: 80px;
+  height:30px;
+  margin: 25px;
+  position: relative;
+  left:20px;
+  bottom: 1px
+}
+.list ul{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 32%;
+  margin: 25px;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+ .button{
+  position:absolute;
+  left:90%;
+  margin:20px;
+  padding: 0px, 10px,10px;
+  
+  
+   }
+   .logo img{
+    width:80px;
+    height: 30px;
+    
+   }
+
+   .list ul li a{
+    text-decoration: none;
+  color: #ffc233;
+    font-weight:600;
+    
+    }
+    .button button{
+      padding:4px;
+      width: 70px;
+      height:25px;
+      background-color: rgb(248, 76, 76);
+      color: aliceblue;
+      border: 0px;
+    }
+
+
+
+    /*  hero section  */
+
+    .hero{
+      /* border: 1px solid red; */
+      display: inline-flex;
+      position: relative;
+      left: 19rem;
+      top: 100px;
+      
+    }
+
+.hero h1{
+  
+
+
+  font-style: normal;
+  font-weight:100;
+  font-size: 480%;
+  line-height:90px;
+  /* or 110% */
+  color: #ffc233;
+  
+  
+  
+
+}
+#mid {
+  position: relative;
+  left: 130px;
+
+
+}
+#down{
+  position: relative;
+  left:75px;
+  
+
+}
+/* footer  */
+.foot{
+  display: inline-flex;
+  position:absolute;
+  top:80%;
+  left: 91%;
+
+}
+.foot img{
+  width: 100px;
+}
+ /*  read our menu button */
+.read{
+  border:none;  
+  display : inline-flex;
+  position : absolute;
+  top : 30rem;
+  left : 48%;
+
+
+}
+.read button{
+  border: none;
+  padding:4px;
+  width:8rem;
+  color: aliceblue;
+  background-color:rgb(248, 76, 76);
+  
+
+}
